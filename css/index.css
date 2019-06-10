@@ -1,3 +1,298 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: square;
+	width: 410px;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+} */
+/* this is my code */
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 16%;
+	margin-right: 19%;
+}
+
+a {
+	display: inline;
+	margin: 40px;
+	color: black;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.newFlex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	border: 0px;
+    padding: 0px;
+    margin-left: 12%;
+}
+
+.innovation {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+    font-size: 75px;	
+}
+
+.start {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	font-size: 18px;
+	width: 174px;
+	height: 34px;
+	border: 1px solid black;
+	margin-left: 19%;
+	margin-top: 20px;
+}
+
+.code {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: flex-end;
+	align-content: flex-end;
+	margin-right: 12%;
+	padding: 0px;
+	border: 0px;
+}
+
+.top2 {
+	display: flex;
+    justify-content: space-evenly;
+    margin-left: 12%;
+    margin-right: 14%;
+}
+
+.features {
+	display: inline-block;
+	margin: 30px 10px 25px 40px;
+}
+
+.about {
+	display: inline-block;
+	margin: 30px 10px 25px 40px;
+}
+
+.middle-img {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom3 {
+	display: flex;
+    justify-content: space-evenly;
+    margin-left: 12%;
+    margin-right: 14%;
+}
+
+.services {
+	display: inline-block;
+	margin: 20px 10px 25px 40px;
+}
+
+.product {
+	display: inline-block;
+	margin: 20px 10px 25px 40px;
+}
+
+.vision {
+	display: inline-block;
+	margin: 20px 10px 25px 40px;
+}
+
+footer {
+	margin-left: 15.5%;
+}
+footer div {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer h3 {
+	margin-top: 40px;
+}
+
+.cr {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.services-header-img {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.services2 {
+	margin: 40px 19% 40px 19%;
+}
+
+.services2 h1 {
+	font-size: 30px;
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 40px;
+}
+.boxes div{
+	border: 1px solid black;
+	width: 420px;
+	height: 250px;
+	margin-bottom: 40px;
+	background: lightgray;
+
+}
+
+.marginR {
+	display: flex;
+	flex-direction: column;
+	margin-right: 225px;
+}
+
+.marginL {
+	display: flex;
+	flex-direction: column;
+	margin-left: 225px;
+}
+
+.button2 {
+	height: 35px;
+	width: 140px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+
+.boxes h4 {
+	margin: 20px;
+}
+.boxes p {
+	margin: 20px;
+}
+
+.facts {
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+	padding: 0px;
+	border: 0px;
+	width: 410px;
+	margin-left: 270px;
+	margin-top: 0px;
+}
+
+.bullets {
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+	margin-left: 290px;
+	margin-top: 20px;
+	text-decoration: square;
+	width: 410px;
+	padding: 0px;
+	border: 0px;
+}
+
+.blondeChick {
+	display: flex;
+	align-self: flex-end;
+	margin-right: 270px;
+	margin-top: -195px;
+}
+
+.services {
+	justify-self: center;
+}
+
+.bottom {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+
+hr {
+    width: 70%;
+}

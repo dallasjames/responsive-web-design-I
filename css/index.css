@@ -303,16 +303,17 @@ hr {
     width: 70%;
 }
 
+nav hr {
+    visibility: hidden;
+}
+
 @media(max-width: 500px) {
     nav {
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
     }
     
-    nav a {
-        border-bottom: 1px solid black;
-    }
-
     .top2 {
         flex-direction: column;
     }
@@ -320,6 +321,16 @@ hr {
     .bottom3 {
         flex-direction: column;
     }
+
+    .newFlex {
+        margin: 0px 0px 80px 0px; 
+    }
+
+    nav hr {
+        visibility: visible;
+        width: 100%;
+    }
+
 }
 
 @media(max-width: 800px) {

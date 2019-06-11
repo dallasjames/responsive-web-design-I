@@ -89,6 +89,12 @@ a {
 	vertical-align: middle;
 }
 
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .newFlex {
 	display: flex;
 	flex-direction: row;
@@ -102,7 +108,7 @@ a {
 .innovation {
 	display: flex;
 	flex-direction: column;
-	text-align: center;
+    text-align: center;
     font-size: 75px;	
 }
 
@@ -295,4 +301,59 @@ footer h3 {
 
 hr {
     width: 70%;
+}
+
+@media(max-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav a {
+        border-bottom: 1px solid black;
+    }
+
+    .top2 {
+        flex-direction: column;
+    }
+
+    .bottom3 {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 800px) {
+    .code {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-around; 
+    }
+
+    .top2 {
+        margin-left: 10%;
+    }
+
+    .middle-img img{
+        display: flex;
+        width: 68%;
+        height: 68%;
+        justify-content: center;
+    }
+
+    .bottom3 {
+        margin-left: 10%;
+    }
+
+    .newFlex {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .innovation {
+        text-align: center;
+    }
 }
